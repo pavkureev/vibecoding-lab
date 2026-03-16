@@ -7,8 +7,12 @@
     "dev": "node dist/index.js"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.0.0",
     "ts-node": "^10.9.0",
-    "@types/node": "^20.0.0"
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
